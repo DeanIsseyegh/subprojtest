@@ -1,0 +1,5 @@
+rootProject.name = 'subprojtest'
+include 'parent1'
+include 'parent-with-sub-modules'
+include 'parent-with-sub-modules:submodule1'
+
