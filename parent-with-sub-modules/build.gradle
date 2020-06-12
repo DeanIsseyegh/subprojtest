@@ -16,9 +16,9 @@ dependencies {
 }
 
 subprojects {
-    task taskFromRoot2() {
+    task taskFromSubmodule() {
         doLast {
-            println "Hi, I'm from parent!"
+            println "Hi, I'm from a submodule parent!"
         }
     }
 }
